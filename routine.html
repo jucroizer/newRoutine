@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matvisio | Votre Routine</title>
+    <link rel="stylesheet" href="public/css/style.css">
+    <script src="https://kit.fontawesome.com/96b76dc251.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    
+    <header class="home-header"> 
+            <!-- logo matvisio -->
+            <div class="logo-header">
+                <img src="img/logo/logo-omnes.svg" alt="logo Matvisio">
+            </div>
+
+            <!-- Label associé à la case. -->
+            <label for="menu-cb" class="menu-label">
+                <!-- Image du menu -->
+                <svg width="19" height="18" viewBox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <line x1="1" y1="1" x2="18" y2="1" stroke="black" stroke-width="2" stroke-linecap="round"/>
+                    <line x1="1" y1="17" x2="18" y2="17" stroke="black" stroke-width="2" stroke-linecap="round"/>
+                    <line x1="8" y1="9" x2="18" y2="9" stroke="black" stroke-width="2" stroke-linecap="round"/>
+                </svg>
+            </label>
+            <!-- Case à cocher -->
+            <input type="checkbox" id="menu-cb" class="menu-cb">
+            <nav class="navbar">
+            <!-- Menu Burger -->
+                <ul class="navbar_links">
+                    <li class="navbar_link" id="echauffement">Nos articles</li>
+                    <li class="navbar_link" id="etirement">Notre application</li>
+                </ul>
+            </nav>
+    </header>
+
+    <!-- heading -->
+    <section id="heading" class="heading">
+        <img class="fond" src="img/header/header-bg.svg">
+        <div id="illustration" class="illustration">
+            <img id="phone-illu" src="img/header/Phone-visuel.svg">
+        </div>
+
+        <div class="presentation-header">
+            <div class="date">
+                <img src="img/header/calendar_month.svg">
+                <p id="current_date"></p>
+            </div>
+            <h1 id="title"></h1>
+            <div class="buttons">
+                <button id="btn-routine" class="btn-primary" >Routine du jour</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="presentation-routine">
+        <div class="container-presentation">
+            <h2>Comment bien faire sa routine ?</h1>
+                <div class="pres-block hydratation">
+                    <h3>L'hydratation 💦</h3>
+                    <p>
+                        L’hydratation est un élément important lors de l’activité physique.
+                    </p>
+                    <aside class="highlight">
+                        <p>La transpiration et la sudation sont le reflet visible d’une perte hydrique lors de l’activité.</p> 
+                        <p>Ainsi, il est important de s’hydrater, avant, pendant et après l’effort pour maintenir 
+                            l’équilibre hydrique habituel.</p>
+                        <p>Il est conseillé de boire 1 à 2 verres toutes les 20 minutes lors de l’effort.</p>
+                    </aside>
+                    <p>
+                        L’eau favorise et maintient l’efficacité musculaire car elle achemine les 
+                        glucides qui une fois ingérés par l'organisme se transforment en glycogène 
+                        qui est la source principale d’énergie pour les muscles. 
+                        L’hydratation oxygène les fibres musculaires en maintenant la circulation 
+                        sanguine. La déshydratation fragilise les muscles qui sont alors plus 
+                        exposés aux risques de microlésions des fibres musculaires entraînant 
+                        les courbatures.
+                    </p>
+                    
+                </div>
+
+                <div class="pres-block mouvement">
+                    <h3>Maîtrise du mouvement 🤸</h3>
+                    <p>
+                        Pour progresser, il est important de réaliser le bon mouvement et le maîtriser. 
+                        Ainsi, il est important de tenir compte des préconisations avant chaque posture. 
+                        Le choix du niveau est important. En effet, en choisissant un niveau trop élevé, 
+                        vous aurez plus de difficulté à exécuter correctement le mouvement et entrainer 
+                        ainsi un risque accru de blessures.
+                    </p>
+                </div>
+
+                <div class="pres-block respiration">
+                    <h3>Respiration 🍃</h3>
+                    <p>
+                        La respiration est également importante lors de l’activité physique.
+                    </p>
+                    <aside class="highlight"> 
+                        <p>
+                            L’oxygène présent dans l’air est indispensable au fonctionnement 
+                            des muscles.
+                        </p> 
+                        <p>
+                            En apnée, les muscles ne sont pas approvisionnés en oxygène et 
+                            les capacités physiques diminuent rapidement.
+                        </p>
+                        <p>
+                            Il est ainsi conseillé, 
+                            lors d’exercice en mouvement, d’expirer pendant l’effort et d’inspirer 
+                            pendant la récupération. 
+                        </p>
+                    </aside>
+                    <p>
+                        Exemple lors d’un exercice de pompes : L’expiration 
+                        se fait lors de la phase de descente et l’inspiration se fait lors de la 
+                        phase de montée.
+                    </p>
+                    <p>
+                        Lors des exercices statiques, il est important de respirer 
+                        continuellement de la façon la plus naturelle possible.
+                    </p> 
+                    <p>
+                        Pour un exercice de gainage : Il ne faut pas rester en apnée mais 
+                        opter pour une respiration régulière.
+                    </p>
+                </div>
+        </div>
+        <div class="container-presentation">
+            <h2>Les bienfaits de la routine</h2>
+            <div class="pres-block">
+                <p>Aujourd’hui, la pratique d’une activité physique et sportive régulière est un déterminant de l’état de santé d’un individu et des populations à tout âge de la vie. Cette pratique est déterminée par des facteurs individuels, sociaux et environnementaux.</p>
+                <p>La pratique régulière d’une activité physique et sportive (même d’intensité modérée) présent de nombreux bienfaits comme :</p>
+                <ul>
+                    <li>La diminution de la mortalité et l’augmentation de la qualité de vie.</li>
+                    <li>L’amélioration de la santé mentale (anxiété, dépression).</li>
+                    <li>L’amélioration de la qualité et de la quantité de sommeil, ainsi qu’une amélioration de l’éveil diurne.</li>
+                    <li>La prévention des principales pathologies chroniques (cancer, maladies cardiovasculaires, diabète…).</li>
+                    <li>La prévention de l’ostéoporose notamment chez la femme.</li>
+                    <li>Le maintien de l’autonomie des personnes âgées.</li>
+                    <li>Le contrôle du poids corporel chez l’adulte et l’enfant.</li>
+                    <li>L’assurance d’une croissance harmonieuse chez l’enfant et l’adolescent.</li>
+                </ul>
+                <p>Les risques pour la santé de la pratique d’une activité physique sont minimisés par le respect de précautions élémentaires, un suivi médical adapté et un encadrement compétent.</p> 
+            </div>
+            <p class="source">Source Inserm et Anses</p>
+        </div>
+    </section>
+
+    <section id="articles"></section>
+
+    <section id="app"></section>
+
+    <!-- Scripts JavaScript -->
+    <script type="module" src="js/exercices.js"></script>
+    <script type="module" src="js/home.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/gsap.min.js"></script>
+    
+</body>
+
+</html>		

@@ -1,0 +1,819 @@
+{
+    "exercices": [
+        {
+            "id": 0,
+            "video": "video/0.MOV",
+            "name": "scaléne gauche",
+            "type": "Etirement",
+            "time": 20,
+            "articulation": "téte"
+        },
+        {
+            "id": 1,
+            "video": "video/1.MOV",
+            "name": "scaléne droit",
+            "type": "Etirement",
+            "time": 20,
+            "articulation": "téte"
+        },
+        {
+            "id": 2,
+            "video": "video/2.MOV",
+            "name": "rotation des épaules dans le sens des aiguilles",
+            "type": "Echauffement",
+            "time": 10,
+            "articulation": "épaules"
+        },
+        {
+            "id": 3,
+            "video": "video/3.mov",
+            "name": "rotation des épaules dans le sens des aiguilles",
+            "type": "Echauffement",
+            "time": 20,
+            "articulation": "épaules"
+        },
+        {
+            "id": 4,
+            "video": "video/4.MOV",
+            "name": "rotation des épaules dans le sens inverses des aiguilles",
+            "type": "Echauffement",
+            "time": 10,
+            "articulation": "épaules"
+        },
+        {
+            "id": 5,
+            "video": "video/5.mov",
+            "name": "rotation des épaules dans le sens inverses des aiguilles",
+            "type": "Echauffement",
+            "time": 20,
+            "articulation": "épaules"
+        },
+        {
+            "id": 6,
+            "video": "video/6.mov",
+            "name": "deltoïde gauche",
+            "type": "Etirement",
+            "time": 5,
+            "articulation": "épaule gauche"
+        },
+        {
+            "id": 7,
+            "video": "video/7.MOV",
+            "name": "deltoïde gauche",
+            "type": "Etirement",
+            "time": 10,
+            "articulation": "épaule gauche"
+        },
+        {
+            "id": 8,
+            "video": "video/8.MOV",
+            "name": "pectoral gauche",
+            "type": "Etirement",
+            "time": 5,
+            "articulation": "épaule gauche"
+        },
+        {
+            "id": 9,
+            "video": "video/9.MOV",
+            "name": "pectoral gauche",
+            "type": "Etirement",
+            "time": 15,
+            "articulation": "épaule gauche"
+        },
+        {
+            "id": 10,
+            "video": "video/10.MOV",
+            "name": "trapèze supérieur gauche",
+            "type": "Etirement",
+            "time": 5,
+            "articulation": "épaule gauche",
+            "equipement": "chaise"
+        },
+        {
+            "id": 11,
+            "video": "video/11.mov",
+            "name": "deltoïde droit",
+            "type": "Etirement",
+            "time": 5,
+            "articulation": "épaule droite"
+        },
+        {
+            "id": 12,
+            "video": "video/12.MOV",
+            "name": "deltoïde droit",
+            "type": "Etirement",
+            "time": 10,
+            "articulation": "épaule droite"
+        },
+        {
+            "id": 13,
+            "video": "video/13.mov",
+            "name": "pectoral droit",
+            "type": "Etirement",
+            "time": 5,
+            "articulation": "épaule droite"
+        },
+        {
+            "id": 14,
+            "video": "video/14.MOV",
+            "name": "pectoral droit",
+            "type": "Etirement",
+            "time": 15,
+            "articulation": "épaule droite"
+        },
+        {
+            "id": 15,
+            "video": "video/15.mov",
+            "name": "trapèze supérieur droit",
+            "type": "Etirement",
+            "time": 5,
+            "articulation": "épaule droite"
+        },
+        {
+            "id": 16,
+            "video": "video/16.MOV",
+            "name": "enroulement du coude gauche",
+            "type": "Echauffement",
+            "time": 10,
+            "articulation": "coude gauche"
+        },
+        {
+            "id": 17,
+            "video": "video/17.mov",
+            "name": "enroulement du coude gauche",
+            "type": "Echauffement",
+            "time": 20,
+            "articulation": "coude gauche"
+        },
+        {
+            "id": 18,
+            "video": "video/18.MOV",
+            "name": "triceps gauche",
+            "type": "Etirement",
+            "time": 5,
+            "articulation": "coude gauche"
+        },
+        {
+            "id": 19,
+            "video": "",
+            "name": "curl excentrique gauche",
+            "type": "Renforcement",
+            "repetition": 8,
+            "time": 20,
+            "articulation": "coude gauche",
+            "equipement": "bouteille"
+        },
+        {
+            "id": 20,
+            "video": "video/20.mov",
+            "name": "enroulement du coude droit",
+            "type": "Echauffement",
+            "time": 10,
+            "articulation": "coude droit"
+        },
+        {
+            "id": 21,
+            "video": "video/21.MOV",
+            "name": "enroulement du coude droit",
+            "type": "Echauffement",
+            "time": 20,
+            "articulation": "coude droit"
+        },
+        {
+            "id": 22,
+            "video": "video/22.mov",
+            "name": "triceps droit",
+            "type": "Etirement",
+            "time": 5,
+            "articulation": "coude droit"
+        },
+        {
+            "id": 23,
+            "video": "",
+            "name": "curl excentrique droit",
+            "type": "Echauffement",
+            "repetition": 8,
+            "time": 20,
+            "articulation": "coude droit",
+            "equipement": "bouteille"
+        },
+        {
+            "id": 24,
+            "video": "video/24.MOV",
+            "name": "roulement des poignets",
+            "type": "Echauffement",
+            "time": 10,
+            "articulation": "poignets"
+        },
+        {
+            "id": 25,
+            "video": "video/25.mov",
+            "name": "roulement des poignets",
+            "type": "Echauffement",
+            "time": 20,
+            "articulation": "poignets"
+        },
+        {
+            "id": 26,
+            "video": "video/26.mov",
+            "name": "fléchisseurs gauche",
+            "type": "Etirement",
+            "time": 10,
+            "articulation": "poignet gauche"
+        },
+        {
+            "id": 27,
+            "video": "video/27.MOV",
+            "name": "extenseurs gauche",
+            "type": "Etirement",
+            "time": 10,
+            "articulation": "poignet gauche"
+        },
+        {
+            "id": 28,
+            "video": "",
+            "name": "curl en extension du poignet gauche",
+            "type": "Renforcement",
+            "time": 30,
+            "repetition": 20,
+            "articulation": "poignet gauche",
+            "equipement": ["chaise", "bouteille"]
+        },
+        {
+            "id": 29,
+            "video": "video/29.MOV",
+            "name": "fléchisseurs droit",
+            "type": "Etirement",
+            "time": 10,
+            "articulation": "poignet droit"
+        },
+        {
+            "id": 30,
+            "video": "video/30.MOV",
+            "name": "extenseurs droit",
+            "type": "Etirement",
+            "time": 10,
+            "articulation": "poignet droit"
+        },
+        {
+            "id": 31,
+            "video": "",
+            "name": "curl en extension du poignet droit",
+            "type": "Renforcement",
+            "time": 30,
+            "repetition": 20,
+            "articulation": "poignet droit",
+            "equipement": ["chaise", "bouteille"]
+        },
+        {
+            "id": 32,
+            "video": "video/32.MOV",
+            "name": "rotation du tronc dans le sens des aiguilles",
+            "type": "Echauffement",
+            "time": 10,
+            "articulation": "tronc"
+        },
+        {
+            "id": 33,
+            "video": "video/33.mov",
+            "name": "rotation du tronc dans le sens des aiguilles",
+            "type": "Echauffement",
+            "time": 20,
+            "articulation": "tronc"
+        },
+        {
+            "id": 34,
+            "video": "video/34.MOV",
+            "name": "rotation du tronc dans le sens inverse des aiguilles",
+            "type": "Echauffement",
+            "time": 10,
+            "articulation": "tronc"
+        },
+        {
+            "id": 35,
+            "video": "video/35.MOV",
+            "name": "rotation du tronc dans le sens inverse des aiguilles",
+            "type": "Echauffement",
+            "time": 20,
+            "articulation": "tronc"
+        },
+        {
+            "id": 36,
+            "video": "video/36.mov",
+            "name": "psoas gauche en chevalier servant",
+            "type": "Etirement",
+            "time": 30,
+            "articulation": "tronc"
+        },
+        {
+            "id": 37,
+            "video": "video/37.MOV",
+            "name": "psoas en sphinx",
+            "type": "Etirement",
+            "time": 30,
+            "repetition": 20,
+            "articulation": "tronc"
+        },
+        {
+            "id": 38,
+            "video": "video/38.MOV",
+            "name": "psoas droit en chevalier servant",
+            "type": "Etirement",
+            "time": 30,
+            "articulation": "tronc"
+        },
+        {
+            "id": 39,
+            "video": "video/39.MOV",
+            "name": "gainage de face",
+            "type": "Renforcement",
+            "time": 45,
+            "articulation": "tronc"
+        },
+        {
+            "id": 40,
+            "video": "video/40.MOV",
+            "name": "gainage de face sur les genoux",
+            "type": "Renforcement",
+            "time": 30,
+            "articulation": "tronc"
+        },
+        {
+            "id": 41,
+            "video": "video/41.mov",
+            "name": "mountain climbers",
+            "type": "Renforcement",
+            "time": 30,
+            "repetition": 12,
+            "articulation": "tronc"
+        },
+        {
+            "id": 42,
+            "video": "video/42.mov",
+            "name": "extension lombaire",
+            "type": "Renforcement",
+            "time": 30,
+            "articulation": "tronc"
+        },
+        {
+            "id": 43,
+            "video": "video/43.MOV",
+            "name": "squat",
+            "type": "Renforcement",
+            "time": 60,
+            "articulation": "tronc"
+        },
+        {
+            "id": 44,
+            "video": "video/44.MOV",
+            "name": "gainage latéral gauche",
+            "type": "Renforcement",
+            "time": 30,
+            "articulation": "tronc"
+        },
+        {
+            "id": 45,
+            "video": "video/45.mov",
+            "name": "gainage latéral gauche jambe relevée",
+            "type": "Renforcement",
+            "time": 30,
+            "articulation": "tronc"
+        },
+        {
+            "id": 46,
+            "video": "video/46.MOV",
+            "name": "gainage latéral gauche sur les genoux",
+            "type": "Renforcement",
+            "time": 30,
+            "articulation": "tronc"
+        },
+        {
+            "id": 47,
+            "video": "video/47.MOV",
+            "name": "gainage latéral droit",
+            "type": "Renforcement",
+            "time": 30,
+            "articulation": "tronc"
+        },
+        {
+            "id": 48,
+            "video": "video/48.MOV",
+            "name": "gainage latéral droit jambe relevée",
+            "type": "Renforcement",
+            "time": 30,
+            "articulation": "tronc"
+        },
+        {
+            "id": 49,
+            "video": "video/49.mov",
+            "name": "gainage latéral droit sur les genoux",
+            "type": "Renforcement",
+            "time": 30,
+            "articulation": "tronc"
+        },
+        {
+            "id": 50,
+            "video": "video/50.mov",
+            "name": "pont",
+            "type": "Renforcement",
+            "time": 30,
+            "articulation": "genoux"
+        },
+        {
+            "id": 51,
+            "video": "video/51.MOV",
+            "name": "squat",
+            "type": "Renforcement",
+            "time": 30,
+            "repetition": 20,
+            "articulation": "genoux"
+        },
+        {
+            "id": 52,
+            "video": "video/52.MOV",
+            "name": "squat unipodal gauche",
+            "type": "Renforcement",
+            "time": 30,
+            "articulation": "genou gauche"
+        },
+        {
+            "id": 53,
+            "video": "video/53.mov",
+            "name": "squat unipodal droit",
+            "type": "Renforcement",
+            "time": 30,
+            "articulation": "genou droit"
+        },
+        {
+            "id": 54,
+            "video": "video/54.mov",
+            "name": "pont",
+            "type": "Renforcement",
+            "time": 30,
+            "repetition": 20,
+            "articulation": "genoux"
+        },
+        {
+            "id": 55,
+            "video": "video/55.mov",
+            "name": "pont",
+            "type": "Renforcement",
+            "time": 30,
+            "repetition": 20,
+            "articulation": "genoux"
+        },
+        {
+            "id": 56,
+            "video": "video/56.MOV",
+            "name": "pont gauche",
+            "type": "Renforcement",
+            "time": 20,
+            "repetition": 10,
+            "articulation": "genoux"
+        },
+        {
+            "id": 57,
+            "video": "video/57.MOV",
+            "name": "pont droit",
+            "type": "Renforcement",
+            "time": 20,
+            "repetition": 10,
+            "articulation": "genoux"
+        }
+    ],
+    "citations": [
+        {
+            "sentence": "Le bonheur est parfois caché dans l'inconnu",
+            "auteur": "Victor Hugo"
+        },
+        {
+            "sentence": "La vie c'est comme une bicyclette, il faut avancer pour ne pas perdre l'équilibre",
+            "auteur": "Albert Einstein"
+        },
+        {
+            "sentence": "Choisissez un travail que vous aimez et vous n'aurez pas à travailler un seul jour de votre vie",
+            "auteur": "Confucius"
+        },
+        {
+            "sentence": "Une journée sans rire est une journée perdue",
+            "auteur": "Charlie Chaplin"
+        },
+        {
+            "sentence": "Notre plus grande gloire n'est point de tomber, mais de savoir nous relever à chaque fois que nous tombons",
+            "auteur": "Confucius"
+        },
+        {
+            "sentence": "Le travail éloigne de nous trois grands maux : l'ennui, le vice et le besoin",
+            "auteur": "Voltaire"
+        },
+        {
+            "sentence": "Il n'y a point de bonheur sans courage, ni de vertu sans combat",
+            "auteur": "Jean-Jacques Rousseau"
+        },
+        {
+            "sentence": "La connaissance s'acquiert par l'expérience, tout le reste n'est que de l'information ",
+            "auteur": "Albert Einstein"
+        },
+        {
+            "sentence": "Les records sont faits pour être battus",
+            "auteur": "Trischa Zorn (Nageuse, championne paralympique)"
+        },
+        {
+            "sentence": "Allez-y vous y êtes presque"
+        },
+        {
+            "sentence": "Continuez, allez-y à fond"
+        },
+        {
+            "sentence": "Et que l'aventure commence"
+        },
+        {
+            "sentence": "Le secret pour aller de l'avant, c'est de commencer"
+        },
+        {
+            "sentence": "Chaque instant est un nouveau départ"
+        },
+        {
+            "sentence": "Vous êtes la clé de votre réussite"
+        },
+        {
+            "sentence": "La fortune sourit aux audacieux"
+        },
+        {
+            "sentence": "Esprit sain dans un corps sain"
+        },
+        {
+            "sentence": "Pour réussir, vous devez d'abord croire que vous pouvez le faire"
+        },
+        {
+            "sentence": "Si vous pouvez le réver, vous pouvez le faire"
+        },
+        {
+            "sentence": "Ne comptez pas les jours, faites compter les jours"
+        },
+        {
+            "sentence": "Là où une porte se ferme, une autre s'ouvre"
+        },
+        {
+            "sentence": "La possibilité de réaliser un rêve est ce qui rend la vie intéressante"
+        },
+        {
+            "sentence": "Il vaut mieux voyager plein d'espoir que d'arriver"
+        },
+        {
+            "sentence": "Illuminez demain avec le présent"
+        },
+        {
+            "sentence": "Bien fait est mieux que bien dit"
+        },
+        {
+            "sentence": "Vous ne pouvez jamais vaincre la personne qui n'abandonne jamais"
+        },
+        {
+            "sentence": "Tout ce que vous pouvez imaginer est réel"
+        },
+        {
+            "sentence": "La meilleure façon de prédire l'avenir est de l'inventer"
+        },
+        {
+            "sentence": "Etre simple est ce qui vous rend grand"
+        },
+        {
+            "sentence": "Le passé n'a aucun pouvoir sur le moment présent"
+        },
+        {
+            "sentence": "Ce qui devait être peut être"
+        },
+        {
+            "sentence": "Vivez pleinement et concentrez-vous sur le positif"
+        },
+        {
+            "sentence": "J'ai confiance en mes capacités"
+        },
+        {
+            "sentence": "34,5% des TMS touche les épaules"
+        },
+        {
+            "sentence": "87% des maladies professionnelles sont des TMS"
+        },
+        {
+            "sentence": "20% des accidents du travail sont liés au mal de dos"
+        },
+        {
+            "sentence": "31,5% des TMS touche les poignets"
+        },
+        {
+            "sentence": "22,8% des TMS touche les coudes"
+        },
+        {
+            "sentence": "Le record du monde en position de gainage est de 9 heures, 30 minutes et 1 seconde"
+        },
+        {
+            "sentence": "Courir un marathon réduit la destruction des cellules"
+        },
+        {
+            "sentence": "L'Inde a un ministre du Yoga"
+        },
+        {
+            "sentence": "Jean-Pierre Pernault à été 3 fois champion de France de Hockey sur Gazon"
+        },
+        {
+            "sentence": "Elvis Presley était ceinture noire de Karaté"
+        },
+        {
+            "sentence": "Le record du 100 mètres en chaussures de ski est détenu par Andre Ortolf en 17,65 secondes"
+        },
+        {
+            "sentence": "Le cœur est le muscle le plus fort du corps"
+        },
+        {
+            "sentence": "L'activité physique permet de réguler l'anxiété et donc de diminuer le risque de Burn-out"
+        },
+        {
+            "sentence": "Le football est le sport qui possède le plus de licenciés en France devant le tennis et l'équitation"
+        },
+        {
+            "sentence": "Le tennis est le sport individuel le plus joué au monde avec plus d'un milliard de pratiquants"
+        },
+        {
+            "sentence": "L'activité physique au travail renforce la cohésion d'équipe"
+        },
+        {
+            "sentence": "L'activité physique au travail augmente la productivité"
+        },
+        {
+            "sentence": "L'activité physique au travail améliore la santé du salarié"
+        },
+        {
+            "sentence": "Le `'Cheese-Rolling'` est un sport qui consiste à dévaler une colline pour tenter de rattraper une fromage de 4,1 kilogrammes"
+        },
+        {
+            "sentence": "Les initiales de la marque Asics correspondent à Anima Sana In Corpore Sano, qui signifie 'Un esprit sain dans un corps sain'"
+        },
+        {
+            "sentence": "Le golf était interdit en Chine jusqu'en 1984"
+        },
+        {
+            "sentence": "Johnny Weissmuller, qui a incarné 12 fois Tarzan au cinéma, détenait 28 records mondiaux de natation"
+        },
+        {
+            "sentence": "Le plus vieux terrain de basket du monde se trouve Rue de Trévise à Paris"
+        },
+        {
+            "sentence": "En 2000, les balles de ping-pong ont été agrandies pour rendre le sport plus attractif à la télévision"
+        },
+        {
+            "sentence": "Aux JO de Pékin en 2008, Usain Bolt à mangé 1000 McNuggets en 6 jours"
+        },
+        {
+            "sentence": "Il existe une religion au nom de Maradona"
+        },
+        {
+            "sentence": "Ecouter de la musique en faisant du sport améliore vos performances physiques"
+        },
+        {
+            "sentence": "L'homme derrière le succès du Frisbee a été incinéré et transformé en frisbees après sa mort"
+        },
+        {
+            "sentence": "En Corée du Sud, les personnes qui gagnent une médaille olympique évitent le service militaire"
+        },
+        {
+            "sentence": "Un survivant du Titanic a refusé que les médecins lui amputent ses deux jambes. 2 ans plus tard, il a remporté l'US Open de tennis"
+        },
+        {
+            "sentence": "Le détenteur du record du monde de tir à l'arc n'a pas de bras"
+        },
+        {
+            "sentence": "Une marque de sport a vendu le logo à trois bandes à Adidas pour 1600 Euros et deux bouteilles de whisky"
+        },
+        {
+            "sentence": "Le record du monde de pompe est de 10 507 pompes consécutives"
+        },
+        {
+            "sentence": "Le record du monde de pompe est de 10 507 pompes consécutives"
+        },
+        {
+            "sentence": "La température dans le cockpit d'une formule 1 atteint 50°C"
+        },
+        {
+            "sentence": "Le vainqueur de la 2eme édition du Tour de France a été disqualifié parce qu’il a triché en prenant le train"
+        },
+        {
+            "sentence": "La Bigorexie est un syndrome qui entraine une addiction à la pratique du sport"
+        },
+        {
+            "sentence": "Le record du monde d'apnée statique est de 22 minutes et 32 secondes"
+        },
+        {
+            "sentence": "L'inde a voulu participer à la coupe du monde de football de 1950 pieds-nus"
+        },
+        {
+            "date": "11/09/2022",
+            "sentence": "Journée nationale de la marche nordique"
+        },
+        {
+            "date": "16/09/2022",
+            "sentence": "Journée européenne de la mobilité"
+        },
+        {
+            "date": "22/9/2022",
+            "sentence": "Journée mondiale sans voiture"
+        },
+        {
+            "date": "01/10/2022",
+            "sentence": "Journée mondiale du sourire"
+        },
+        {
+            "date": "10/10/2022",
+            "sentence": "Journée mondiale de la santé mentale"
+        },
+        {
+            "date": "31/10/2022",
+            "sentence": "Halloween"
+        },
+        {
+            "date": "03/11/2022",
+            "sentence": "Journée mondiale de la gentillesse"
+        },
+        {
+            "date": "25/12/2022",
+            "sentence": "Jour de Noël"
+        },
+        {
+            "date": "01/01/2023",
+            "sentence": "Jour de l'An"
+        },
+        {
+            "date": "01/01/2023",
+            "sentence": "Jour de l'An"
+        },
+        {
+            "date": "11/01/2023",
+            "sentence": "Journée mondiale du 'Merci'"
+        },
+        {
+            "date": "24/01/2023",
+            "sentence": "Journée mondiale de l'éducation"
+        },
+        {
+            "date": "28/01/2023",
+            "sentence": "Journée mondiale de la protection des données"
+        },
+        {
+            "date": "07/02/2023",
+            "sentence": "Journée mondiale sans téléphone mobile"
+        },
+        {
+            "date": "01/03/2023",
+            "sentence": "Journée mondiale du compliment"
+        },
+        {
+            "date": "18/03/2023",
+            "sentence": "Journée mondiale du sommeil"
+        },
+        {
+            "date": "21/03/2023",
+            "sentence": "Journée mondiale du rangement des bureaux"
+        },
+        {
+            "date": "22/03/2023",
+            "sentence": "Journée mondiale de l'eau"
+        },
+        {
+            "date": "25/03/2023",
+            "sentence": "Journée mondiale de la procrastination"
+        },
+        {
+            "date": "01/04/2023",
+            "sentence": "En avril, ne te découvre pas d'un fil"
+        },
+        {
+            "date": "05/04/2023",
+            "sentence": "Journée mondiale de la conscience"
+        },
+        {
+            "date": "07/04/2023",
+            "sentence": "Journée mondiale de la santé"
+        },
+        {
+            "date": "28/04/2023",
+            "sentence": "Journée mondiale de la sécurité et de la santé au travail"
+        },
+        {
+            "date": "01/05/2023",
+            "sentence": "En mai, fais ce qu'il te plait"
+        },
+        {
+            "date": "06/05/2023",
+            "sentence": "Journée mondiale du mot de passe"
+        },
+        {
+            "date": "06/06/2023",
+            "sentence": "Journée mondiale du bien-être"
+        },
+        {
+            "date": "16/06/2023",
+            "sentence": "Journée mondiale de la santé du pied"
+        }
+    ]
+}
