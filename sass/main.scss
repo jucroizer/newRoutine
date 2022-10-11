@@ -155,6 +155,20 @@ html, body {
         left: 0;
         top: 18%;
         display: block;
+
+        @include mobileOnly(){
+            top: 19%;
+        }
+
+        @include tabletOnly(){
+            top: 13%;
+        }
+
+        @include laptopOnly(){
+            top: 17%;
+        }
+
+
    }
 
    .illustration{
@@ -194,6 +208,10 @@ html, body {
                     @include tabletOnly(){
                         width: 2em;
                     }
+
+                    @include laptopOnly(){
+                        width: 3em;
+                    }
                 }
             }
 
@@ -204,8 +222,16 @@ html, body {
                 img{
                     width: 3.5em;
 
+                    @include mobileOnly(){
+                        width: 0.8em;
+                    }
+
                     @include tabletOnly(){
                         width: 2em;
+                    }
+
+                    @include laptopOnly(){
+                        width: 2.5em;
                     }
                 }
 
@@ -213,13 +239,17 @@ html, body {
                     margin-left: -1.9em;
 
                     @include mobileOnly(){
-                        margin: 0.5em 0.2em;
-                        font-size: 0.5em;
+                        margin: 0.5em -2.5em;
+                        font-size: 0.2em;
                     }
     
                     @include tabletOnly(){
                         margin-left: -1.6em;
                         font-size: 0.7em;
+                    }
+
+                    @include laptopOnly(){
+                        margin-left: -1.5em;
                     }
                 }
             }

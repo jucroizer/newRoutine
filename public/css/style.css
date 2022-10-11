@@ -113,6 +113,21 @@ html, body {
   top: 18%;
   display: block;
 }
+@media screen and (max-width: 767px) {
+  .heading .fond {
+    top: 19%;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .heading .fond {
+    top: 13%;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1207px) {
+  .heading .fond {
+    top: 17%;
+  }
+}
 .heading .illustration {
   position: relative;
   left: 58%;
@@ -152,6 +167,11 @@ html, body {
     width: 2em;
   }
 }
+@media screen and (min-width: 1024px) and (max-width: 1207px) {
+  .heading .illustration #affichage-totaux .equipement img {
+    width: 3em;
+  }
+}
 .heading .illustration #affichage-totaux .time-container {
   display: flex;
   align-items: center;
@@ -159,9 +179,19 @@ html, body {
 .heading .illustration #affichage-totaux .time-container img {
   width: 3.5em;
 }
+@media screen and (max-width: 767px) {
+  .heading .illustration #affichage-totaux .time-container img {
+    width: 0.8em;
+  }
+}
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .heading .illustration #affichage-totaux .time-container img {
     width: 2em;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1207px) {
+  .heading .illustration #affichage-totaux .time-container img {
+    width: 2.5em;
   }
 }
 .heading .illustration #affichage-totaux .time-container .time {
@@ -169,14 +199,19 @@ html, body {
 }
 @media screen and (max-width: 767px) {
   .heading .illustration #affichage-totaux .time-container .time {
-    margin: 0.5em 0.2em;
-    font-size: 0.5em;
+    margin: 0.5em -2.5em;
+    font-size: 0.2em;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .heading .illustration #affichage-totaux .time-container .time {
     margin-left: -1.6em;
     font-size: 0.7em;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1207px) {
+  .heading .illustration #affichage-totaux .time-container .time {
+    margin-left: -1.5em;
   }
 }
 .heading .presentation-header {
