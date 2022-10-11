@@ -289,11 +289,18 @@ function routineDisplay(e) {
 
   let titleExercice;
 
-  exerciceVideo = document.createElement("video");
+  // exerciceVideo = document.createElement("video");
+  // exerciceVideo.setAttribute("id", `${e[0].id}`);
+  // exerciceVideo.setAttribute("src", `${e[0].video}`);
+  // exerciceVideo.setAttribute("controls", "controls");
+  // exerciceVideo.setAttribute("class", "exercice-video");
+
+  exerciceVideo = document.createElement("iframe");
   exerciceVideo.setAttribute("id", `${e[0].id}`);
   exerciceVideo.setAttribute("src", `${e[0].video}`);
-  exerciceVideo.setAttribute("controls", "controls");
   exerciceVideo.setAttribute("class", "exercice-video");
+  exerciceVideo.setAttribute("allowfullscreen", "allowfullscreen");
+
 
   typeExercice = document.createElement("p");
   typeExercice.setAttribute("class", "p-type");

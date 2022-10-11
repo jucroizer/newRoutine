@@ -2,7 +2,7 @@
     "exercices": [
         {
             "id": 0,
-            "video": "video/0.MOV",
+            "video": "https://www.youtube.com/embed/uEs5itp_XJM",
             "name": "scaléne gauche",
             "type": "Etirement",
             "time": 20,
