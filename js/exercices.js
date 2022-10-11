@@ -372,6 +372,8 @@ function routineDisplay(e) {
         "img/page exercice/header/header-green.svg"
       );
       whereImg.setAttribute("src", "img/page exercice/sometimes.svg");
+      whereImg.setAttribute("class", "occasional-icon");
+      whereBox.setAttribute("class", "where occasionnal-box");
     }
   }
 
@@ -740,6 +742,8 @@ function routineDisplay(e) {
             "img/page exercice/header/header-green.svg"
           );
           whereImg.setAttribute("src", "img/page exercice/sometimes.svg");
+          whereImg.setAttribute("class", "occasional-icon");
+          whereBox.setAttribute("class", "where occasionnal-box");
         }
       }
 
