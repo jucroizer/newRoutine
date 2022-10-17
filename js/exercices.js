@@ -654,11 +654,12 @@ function routineDisplay(e) {
 
       let titleExercice;
 
-      exerciceVideo = document.createElement("video");
+      exerciceVideo = document.createElement("iframe");
       exerciceVideo.setAttribute("id", `${nextExercice.id}`);
       exerciceVideo.setAttribute("src", `${nextExercice.video}`);
       exerciceVideo.setAttribute("controls", "controls");
       exerciceVideo.setAttribute("class", "exercice-video");
+      exerciceVideo.setAttribute("allowfullscreen", "allowfullscreen");
 
       typeExercice = document.createElement("p");
       typeExercice.setAttribute("class", "p-type");
@@ -694,7 +695,7 @@ function routineDisplay(e) {
       prevArrow.setAttribute("src", "img/page exercice/arrow.svg");
 
       if (index == "0") {
-        previous.style.display = "none";
+        divPrev.style.display = "none";
       }
 
       const instructionBox = document.createElement("div");
