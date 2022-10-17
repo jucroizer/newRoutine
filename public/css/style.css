@@ -12,11 +12,6 @@ html, body {
   scroll-behavior: smooth;
   background-color: #f8f9fa;
 }
-@media screen and (max-width: 767px) {
-  html, body {
-    overflow-x: hidden;
-  }
-}
 
 .home-header {
   display: flex;
@@ -126,7 +121,7 @@ html, body {
 @media screen and (max-width: 767px) {
   .heading .fond {
     width: 200%;
-    left: -14em;
+    left: -20em;
     top: 7em;
   }
 }
@@ -268,7 +263,7 @@ html, body {
     width: 70%;
     font-size: 1em;
     margin-top: 16em;
-    margin-left: 9em;
+    margin-left: 8em;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
@@ -282,7 +277,7 @@ html, body {
 }
 @media screen and (max-width: 767px) {
   .heading .presentation-header .date {
-    font-size: 45%;
+    font-size: 70%;
   }
 }
 @media screen and (max-width: 767px) {
