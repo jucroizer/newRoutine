@@ -52,6 +52,7 @@ html, body {
 }
 
 .home-header{
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -60,6 +61,9 @@ html, body {
     height: 10em;
 
     @include mobileOnly(){
+        flex-direction: none;
+        justify-content: none;
+        align-items: none;
         height: 7em;
     }
 
@@ -77,7 +81,8 @@ html, body {
         align-items: baseline;
 
         @include mobileOnly {
-            margin: 1em;
+            margin: 0;
+            padding: 1em;
             width: 40%;
         }
     }
@@ -163,6 +168,11 @@ html, body {
         left: 0;
         top: 18%;
         display: block;
+        background-image: url("img/header/header-bg.svg");
+        background-size: 100% 100%;
+        -o-background-size: 100% 100%;
+        -webkit-background-size: 100% 100%;
+        background-size: cover;
 
         @include mobileOnly(){
             width: 200%;
@@ -286,6 +296,7 @@ html, body {
         margin-left: 3em;
 
         @include mobileOnly(){
+            width: 90%;
             top: 20%;
             margin: -2em 2em 2em 2em;
         }
@@ -303,8 +314,8 @@ html, body {
             @include mobileOnly(){
                 width: 70%;
                 font-size: 1em;
-                margin-top: 16em;
-                margin-left: 8em;
+                margin-top: 14em;
+                margin-left: 5em;
             }
 
             @include tabletOnly(){
@@ -339,6 +350,7 @@ html, body {
                 display: flex;
                 flex-direction: column;
                 margin-top: 0em;
+                width: 100%;
             }
 
             @include tabletOnly(){
@@ -346,10 +358,9 @@ html, body {
                 flex-direction: column;
             }
 
-            .btn-primary, .btn-secondary{
+            .btn-primary{
                 width: 285px;
                 height: 60px;
-                margin-right: 1em;
                 border-radius: 10px;
                 border: none;
                 background: linear-gradient(to left,#FFB600, #012840);
@@ -360,11 +371,10 @@ html, body {
                 cursor: pointer;
     
                 @include mobileOnly(){
-                    width: 100%;
+                    width: 90%;
                     height: 3em;
                     font-size: 1em;
                     margin-top: 1em;
-                    margin-right: 0.5em;
                     border-radius: 10px;
                 }
 
@@ -375,10 +385,6 @@ html, body {
                     margin-top: 1em;
                     border-radius: 10px;
                 }
-            }
-    
-            .btn-secondary{
-                background: rgba(1, 40, 64, 0.9);
             }
         }
         

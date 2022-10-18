@@ -14,6 +14,7 @@ html, body {
 }
 
 .home-header {
+  width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -23,6 +24,9 @@ html, body {
 }
 @media screen and (max-width: 767px) {
   .home-header {
+    flex-direction: none;
+    justify-content: none;
+    align-items: none;
     height: 7em;
   }
 }
@@ -43,7 +47,8 @@ html, body {
 }
 @media screen and (max-width: 767px) {
   .home-header .logo-header {
-    margin: 1em;
+    margin: 0;
+    padding: 1em;
     width: 40%;
   }
 }
@@ -117,6 +122,11 @@ html, body {
   left: 0;
   top: 18%;
   display: block;
+  background-image: url("img/header/header-bg.svg");
+  background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+  -webkit-background-size: 100% 100%;
+  background-size: cover;
 }
 @media screen and (max-width: 767px) {
   .heading .fond {
@@ -243,6 +253,7 @@ html, body {
 }
 @media screen and (max-width: 767px) {
   .heading .presentation-header {
+    width: 90%;
     top: 20%;
     margin: -2em 2em 2em 2em;
   }
@@ -262,8 +273,8 @@ html, body {
   .heading .presentation-header h1 {
     width: 70%;
     font-size: 1em;
-    margin-top: 16em;
-    margin-left: 8em;
+    margin-top: 14em;
+    margin-left: 5em;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
@@ -296,6 +307,7 @@ html, body {
     display: flex;
     flex-direction: column;
     margin-top: 0em;
+    width: 100%;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
@@ -304,10 +316,9 @@ html, body {
     flex-direction: column;
   }
 }
-.heading .presentation-header .buttons .btn-primary, .heading .presentation-header .buttons .btn-secondary {
+.heading .presentation-header .buttons .btn-primary {
   width: 285px;
   height: 60px;
-  margin-right: 1em;
   border-radius: 10px;
   border: none;
   background: linear-gradient(to left, #FFB600, #012840);
@@ -317,26 +328,22 @@ html, body {
   cursor: pointer;
 }
 @media screen and (max-width: 767px) {
-  .heading .presentation-header .buttons .btn-primary, .heading .presentation-header .buttons .btn-secondary {
-    width: 100%;
+  .heading .presentation-header .buttons .btn-primary {
+    width: 90%;
     height: 3em;
     font-size: 1em;
     margin-top: 1em;
-    margin-right: 0.5em;
     border-radius: 10px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-  .heading .presentation-header .buttons .btn-primary, .heading .presentation-header .buttons .btn-secondary {
+  .heading .presentation-header .buttons .btn-primary {
     width: 14em;
     height: 3.5em;
     font-size: 1em;
     margin-top: 1em;
     border-radius: 10px;
   }
-}
-.heading .presentation-header .buttons .btn-secondary {
-  background: rgba(1, 40, 64, 0.9);
 }
 
 #presentation-routine {
