@@ -24,6 +24,7 @@ html, body {
 }
 @media screen and (max-width: 767px) {
   .home-header {
+    width: 100%;
     flex-direction: none;
     justify-content: none;
     align-items: none;
@@ -131,7 +132,7 @@ html, body {
 @media screen and (max-width: 767px) {
   .heading .fond {
     width: 200%;
-    left: -23.5em;
+    left: -24.5em;
     top: 7em;
   }
 }
