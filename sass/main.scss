@@ -180,7 +180,7 @@ html, body {
 
         @include mobileOnly(){
             width: 200%;
-            left: -21.5em;
+            left: -100%;
             top: 7em;
         }
 
@@ -330,10 +330,10 @@ html, body {
             margin-top: 10%;
 
             @include mobileOnly(){
-                width: 50%;
+                width: 95%;
                 font-size: 1em;
                 margin-top: 15em;
-                margin-left: 11em;
+                // margin-left: 11em;
             }
 
             @include tabletOnly(){
@@ -363,7 +363,6 @@ html, body {
         }
 
         .buttons{
-
             margin-top: 10%;
 
             @include mobileOnly(){
@@ -421,7 +420,7 @@ html, body {
     padding: 2em;
 
     @include mobileOnly(){
-        margin: 19em 0em 10em 0em;
+        margin: 15em 0em 10em 0em;
         padding: 0em;
     }
 

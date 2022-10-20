@@ -132,7 +132,7 @@ html, body {
 @media screen and (max-width: 767px) {
   .heading .fond {
     width: 200%;
-    left: -21.5em;
+    left: -100%;
     top: 7em;
   }
 }
@@ -290,10 +290,9 @@ html, body {
 }
 @media screen and (max-width: 767px) {
   .heading .presentation-header h1 {
-    width: 50%;
+    width: 95%;
     font-size: 1em;
     margin-top: 15em;
-    margin-left: 11em;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
@@ -376,7 +375,7 @@ html, body {
 }
 @media screen and (max-width: 767px) {
   #presentation-routine {
-    margin: 19em 0em 10em 0em;
+    margin: 15em 0em 10em 0em;
     padding: 0em;
   }
 }
