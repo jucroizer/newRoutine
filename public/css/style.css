@@ -186,6 +186,11 @@ html, body {
     left: 22%;
   }
 }
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .heading .illustration #affichage-totaux {
+    left: 17%;
+  }
+}
 .heading .illustration #affichage-totaux .equipement {
   margin: auto 0.5em;
 }
@@ -273,7 +278,7 @@ html, body {
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .heading .presentation-header {
-    top: 20%;
+    top: 25%;
     width: 90%;
   }
 }
@@ -293,8 +298,10 @@ html, body {
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .heading .presentation-header h1 {
-    width: 35%;
+    width: 50%;
     font-size: 2em;
+    margin-top: 32%;
+    margin-left: 11em;
   }
 }
 .heading .presentation-header .date {
@@ -328,6 +335,7 @@ html, body {
   .heading .presentation-header .buttons {
     display: flex;
     flex-direction: column;
+    margin-left: 23em;
   }
 }
 .heading .presentation-header .buttons .btn-primary {
@@ -352,7 +360,7 @@ html, body {
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .heading .presentation-header .buttons .btn-primary {
-    width: 14em;
+    width: 20em;
     height: 3.5em;
     font-size: 1em;
     margin-top: 1em;

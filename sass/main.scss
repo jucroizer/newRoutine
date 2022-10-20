@@ -231,6 +231,9 @@ html, body {
                 left: 22%;
             }
 
+            @include tabletOnly(){
+                left: 17%;
+            }
             
 
             .equipement{
@@ -316,7 +319,7 @@ html, body {
         }
 
         @include tabletOnly(){
-            top: 20%;
+            top: 25%;
             width: 90%;
         }
 
@@ -334,8 +337,10 @@ html, body {
             }
 
             @include tabletOnly(){
-                width: 35%;
+                width: 50%;
                 font-size: 2em;
+                margin-top: 32%;
+                margin-left: 11em;
             }
         }
 
@@ -371,6 +376,7 @@ html, body {
             @include tabletOnly(){
                 display: flex;
                 flex-direction: column;
+                margin-left: 23em;
             }
 
             .btn-primary{
@@ -394,7 +400,7 @@ html, body {
                 }
 
                 @include tabletOnly(){
-                    width: 14em;
+                    width: 20em;
                     height: 3.5em;
                     font-size: 1em;
                     margin-top: 1em;
