@@ -132,7 +132,7 @@ html, body {
 @media screen and (max-width: 767px) {
   .heading .fond {
     width: 200%;
-    left: -22.5em;
+    left: -21.5em;
     top: 7em;
   }
 }
