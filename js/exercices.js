@@ -201,11 +201,17 @@ function selectDisplay() {
   // insertion de la lightbox dans le DOM
   document.body.appendChild(lightbox);
 
+  // event listenner fermeture de la modale
+  closeBtn.addEventListener("click", close);
+
+  // event listenner lancemnet de la routine
   const btn = document.getElementById("button-form");
   console.log(btn);
 
   btn.addEventListener("click", init);
 }
+
+
 
 // Fonction d'affichage de la lightbox contenant la routine
 function routineDisplay(e) {
@@ -829,4 +835,11 @@ function animateConfettis() {
     .add(() => {
       containerSlot.innerHTML = "";
     });
+}
+
+// fermeture de la modale
+function close(){
+  const undisplay = document.getElementById('body-form');
+  undisplay.style.display = "none";
+  location.reload();
 }
