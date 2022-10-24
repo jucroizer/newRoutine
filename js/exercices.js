@@ -211,8 +211,6 @@ function selectDisplay() {
   btn.addEventListener("click", init);
 }
 
-
-
 // Fonction d'affichage de la lightbox contenant la routine
 function routineDisplay(e) {
   const lightbox = document.createElement("div");
